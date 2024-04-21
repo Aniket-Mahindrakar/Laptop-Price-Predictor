@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lappred
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: laptoppredictor
+  template:
+    metadata:
+      labels:
+        app: laptoppredictor
+    spec:  
+      containers:
+      - name: laptop-price-predictor
+        image: lappred
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        resources: {}
+        imagePullPolicy: IfNotPresent
+      
+      restartPolicy: Always
