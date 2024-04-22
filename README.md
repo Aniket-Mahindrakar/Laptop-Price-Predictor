@@ -1,4 +1,4 @@
-# Laptop-Price-Predictor
+# Laptop Price Predictor
 Welcome to the Laptop Price Prediction project! In this repository, we explore the fascinating world of laptop pricing using data science techniques. The goal of this project is to develop a predictive model that can accurately forecast laptop prices based on various features such as specifications, brand, and market trends.
 
 # Project Overview
