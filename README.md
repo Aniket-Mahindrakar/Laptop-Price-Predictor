@@ -4,6 +4,12 @@ Welcome to the Laptop Price Prediction project! In this repository, we explore t
 # Project Overview
 In today's fast-paced technological landscape, laptops have become indispensable tools for work, education, and entertainment. However, with a myriad of options available in the market, determining the fair price of a laptop can be challenging for both consumers and sellers. This project aims to address this challenge by leveraging machine learning algorithms to predict laptop prices with greater precision.
 
+## Input
+![Screenshot 2024-04-30 205219](https://github.com/Aniket-Mahindrakar/Laptop-Price-Predictor/assets/25640390/52ee6db7-ac59-484c-bcee-742058153bde)
+
+## Output
+![Screenshot 2024-04-30 205255](https://github.com/Aniket-Mahindrakar/Laptop-Price-Predictor/assets/25640390/780bcda5-3f01-4fe9-9bd4-fc62edbfae50)
+
 # Key Highlights
 - <b>Exploratory Data Analysis (EDA):</b> We employ Pandas and Seaborn to meticulously explore the dataset, gaining insights into the relationships between different features and laptop prices. Through visualizations and statistical analysis, we uncover patterns and trends that inform our modeling approach.
 - <b>Data Preprocessing:</b> Before building our predictive model, we preprocess the data to ensure its quality and suitability for modeling. This includes textual data cleaning, encoding categorical variables, and feature engineering.
@@ -42,6 +48,7 @@ In today's fast-paced technological landscape, laptops have become indispensable
   ```
   docker run --rm -it -p 8501:8501 --user=42420:42420 aniketmm98/laptop_price_prediction:latest
   ```
+
 These instructions assume you have Docker and Kubernetes installed and configured properly on your system. Make sure to replace aniketmm98/laptop_price_prediction with the appropriate Docker image name and tag for your project.
 
 # Contributions
